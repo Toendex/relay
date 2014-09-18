@@ -13,12 +13,10 @@
 #include <string.h>
 
 #define ITERNUM 100000000L
-#define NUMOFNODE 100000000
+#define BUFFERSIZE 512000000L
+#define STEP 1024
 
-struct node {
-    char a[10];
-    struct node *next;
-};
+typedef long PointType;
 
 double nowTimeInSec() {
     struct timeval t;
@@ -29,35 +27,26 @@ double nowTimeInSec() {
 int main(int argc, const char * argv[])
 {
     double t;
-    
-    struct node *nd=(struct node*)malloc(sizeof(struct node));
-    struct node *root=nd;
-    struct node *nw;
-    struct node **nodes=(struct node**)malloc(sizeof(struct node*)*NUMOFNODE);
-    for (int i=0; i<NUMOFNODE; i++) {
-        nodes[i]=(struct node*)malloc(sizeof(struct node));
-    }
-    
-    nw=root;
-    t=nowTimeInSec();
-    for (int i=0; i<NUMOFNODE; i++) {
-        nw->next=nodes[i];
-        nw=nw->next;
-    }
-    t=nowTimeInSec()-t;
-    printf("Write Latency: Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,NUMOFNODE/t/1.e6,t*1.e9/NUMOFNODE);
-    nw->next=root;
-    
-    nw=root;
-    t=nowTimeInSec();
-    for (long i=0; i<ITERNUM; i++) {
-        nw=nw->next;
-    }
-    t=nowTimeInSec()-t;
-    printf("%i\n",nw->a[0]);
-    printf("Read Latency: Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,ITERNUM/t/1.e6,t*1.e9/ITERNUM);
-    
+    PointType * nodes;
+    long numOfItem=(BUFFERSIZE-sizeof(PointType *))/sizeof(PointType *);
+    long n;
+    int step=STEP/sizeof(PointType *);
+    nodes=(PointType *)malloc(numOfItem*sizeof(PointType *));
+    n=0;
 
+    t=nowTimeInSec();
+    for (int i=0; i<numOfItem; i++) {
+        nodes[n]=(PointType)(nodes+(n+step)%numOfItem);
+        n=(n+step)%numOfItem;
+    }
+    t=nowTimeInSec()-t;
+    printf("Write Latency: Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,numOfItem/t/1.e6,t*1.e9/numOfItem);
+
+    t=nowTimeInSec();
+
+    t=nowTimeInSec()-t;
+//    printf("%i\n",nw->a[0]);
+    printf("Read Latency: Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,ITERNUM/t/1.e6,t*1.e9/ITERNUM);
     
     return 0;
 }
