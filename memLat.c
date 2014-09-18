@@ -13,10 +13,10 @@
 #include <string.h>
 
 #define ITERNUM 100000000L
-#define NUMOFNODE 1000
+#define NUMOFNODE 100000000
 
 struct node {
-    char a[1000000];
+    char a[10];
     struct node *next;
 };
 
@@ -33,11 +33,20 @@ int main(int argc, const char * argv[])
     struct node *nd=(struct node*)malloc(sizeof(struct node));
     struct node *root=nd;
     struct node *nw;
+    struct node **nodes=(struct node**)malloc(sizeof(struct node*)*NUMOFNODE);
     for (int i=0; i<NUMOFNODE; i++) {
-        nd->next=(struct node*)malloc(sizeof(struct node));
-        nd=nd->next;
+        nodes[i]=(struct node*)malloc(sizeof(struct node));
     }
-    nd->next=root;
+    
+    nw=root;
+    t=nowTimeInSec();
+    for (int i=0; i<NUMOFNODE; i++) {
+        nw->next=nodes[i];
+        nw=nw->next;
+    }
+    t=nowTimeInSec()-t;
+    printf("Write Latency: Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,NUMOFNODE/t/1.e6,t*1.e9/NUMOFNODE);
+    nw->next=root;
     
     nw=root;
     t=nowTimeInSec();
@@ -46,7 +55,7 @@ int main(int argc, const char * argv[])
     }
     t=nowTimeInSec()-t;
     printf("%i\n",nw->a[0]);
-    printf("Copy: Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,ITERNUM/t/1.e6,t*1.e9/ITERNUM);
+    printf("Read Latency: Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,ITERNUM/t/1.e6,t*1.e9/ITERNUM);
     
 
     
