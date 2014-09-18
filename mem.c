@@ -14,7 +14,7 @@
 
 #define BLOCKSIZE 1000
 #define BUFFERSIZE 100000000
-#define ITERNUM 100000000L
+#define ITERNUM 10000000L
 #define NUMOFTHREAD 1
 #define TESTTYPE 0          
 
@@ -52,8 +52,6 @@ int main(int argc, const char * argv[])
     int numOfThread;
     pthread_attr_t attr;
     pthread_t *threads;
-    char *buffer=(char*)malloc(BUFFERSIZE);
-    char *block=(char*)malloc(BLOCKSIZE);
     
     testType=TESTTYPE;
     numOfThread=NUMOFTHREAD;
@@ -64,29 +62,27 @@ int main(int argc, const char * argv[])
     struct ParamForMemoryTest *paramForMemoryTest;
     paramForMemoryTest=(struct ParamForMemoryTest *)malloc(sizeof(struct ParamForMemoryTest)*numOfThread);
     for (int i=0; i<numOfThread; i++) {
-        paramForMemoryTest[i].buffer=buffer;
-        paramForMemoryTest[i].block=block;
+        paramForMemoryTest[i].buffer=(char*)malloc(BUFFERSIZE);
+        paramForMemoryTest[i].block=(char*)malloc(BLOCKSIZE);
     }
     
     t=nowTimeInSec();
-//    for (int i=0; i<numOfThread; i++) {
-//        if (testType==0) {
-//            pthread_create(threads+i, &attr, calSeqRW, &paramForMemoryTest[i]);
-//        }
-//    }
-//    for (int i=0; i<numOfThread; i++) {
-//        pthread_join(threads[i], NULL);
-//    }
-    int blockNum=BUFFERSIZE/BLOCKSIZE;
-    long loops=ITERNUM;
-    for (long i=0; i<loops; i++) {
-        memcpy(buffer+BLOCKSIZE*(i%blockNum),block,BLOCKSIZE);
+    for (int i=0; i<numOfThread; i++) {
+        if (testType==0) {
+            pthread_create(threads+i, &attr, calSeqRW, &paramForMemoryTest[i]);
+        }
+    }
+    for (int i=0; i<numOfThread; i++) {
+        pthread_join(threads[i], NULL);
     }
     t=nowTimeInSec()-t;
     
     printf("Copy: Run %.2lfs, block size %d, %ld loops, with %.4lfGTps, %.4lfGBps, %.4lfns latency\n",t,BLOCKSIZE,ITERNUM*numOfThread,ITERNUM*numOfThread/t/1.e9,ITERNUM*BLOCKSIZE*numOfThread/t/1.e9,t/ITERNUM/numOfThread);
     
-
+    for (int i=0; i<numOfThread; i++) {
+        free(paramForMemoryTest[i].buffer);
+        free(paramForMemoryTest[i].block);
+    }
     pthread_attr_destroy(&attr);
     free(threads);
     
