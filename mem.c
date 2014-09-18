@@ -12,15 +12,16 @@
 #include <pthread.h>
 #include <string.h>
 
-#define BLOCKSIZE 1000
+#define BLOCKSIZE 10000
 #define BUFFERSIZE 100000000
-#define ITERNUM 10000000L
-#define NUMOFTHREAD 1
+#define ITERNUM 1000000L
+#define NUMOFTHREAD 4
 #define TESTTYPE 0          
 
 struct ParamForMemoryTest
 {
-    char *buffer;
+    char *buffer1;
+    char *buffer2;
     char *block;
     long bufferSize;
     long blockSize;
@@ -29,12 +30,26 @@ struct ParamForMemoryTest
 
 void * calSeqRW(void *param)
 {
-    char *buffer=((struct ParamForMemoryTest *)param)->buffer;
+    char *buffer1=((struct ParamForMemoryTest *)param)->buffer1;
+    char *buffer2=((struct ParamForMemoryTest *)param)->buffer2;
+    char *block=((struct ParamForMemoryTest *)param)->block;
+    int blockNum=BUFFERSIZE/BLOCKSIZE;
+    long loops=ITERNUM;
+    for (long i=0; i<loops; i+=2) {
+        memcpy(buffer1+BLOCKSIZE*(i%blockNum),buffer2+BLOCKSIZE*(i%blockNum),BLOCKSIZE);
+        memcpy(buffer1+BLOCKSIZE*((i+1)%blockNum),buffer2+BLOCKSIZE*((i+1)%blockNum),BLOCKSIZE);
+    }
+    pthread_exit(NULL);
+}
+void * calRanRW(void *param)
+{
+    srand(time(NULL));
+    char *buffer1=((struct ParamForMemoryTest *)param)->buffer1;
     char *block=((struct ParamForMemoryTest *)param)->block;
     int blockNum=BUFFERSIZE/BLOCKSIZE;
     long loops=ITERNUM;
     for (long i=0; i<loops; i++) {
-        memcpy(buffer+BLOCKSIZE*(i%blockNum),block,BLOCKSIZE);
+        memcpy(buffer1+BLOCKSIZE*(rand()%blockNum),block,BLOCKSIZE);
     }
     pthread_exit(NULL);
 }
@@ -50,6 +65,9 @@ int main(int argc, const char * argv[])
     double t;
     int testType;
     int numOfThread;
+    char *buffer1;
+    char *buffer2;
+    char *block;
     pthread_attr_t attr;
     pthread_t *threads;
     
@@ -62,7 +80,8 @@ int main(int argc, const char * argv[])
     struct ParamForMemoryTest *paramForMemoryTest;
     paramForMemoryTest=(struct ParamForMemoryTest *)malloc(sizeof(struct ParamForMemoryTest)*numOfThread);
     for (int i=0; i<numOfThread; i++) {
-        paramForMemoryTest[i].buffer=(char*)malloc(BUFFERSIZE);
+        paramForMemoryTest[i].buffer1=(char*)malloc(BUFFERSIZE);
+        paramForMemoryTest[i].buffer2=(char*)malloc(BUFFERSIZE);
         paramForMemoryTest[i].block=(char*)malloc(BLOCKSIZE);
     }
     
@@ -80,7 +99,8 @@ int main(int argc, const char * argv[])
     printf("Copy: Run %.2lfs, block size %d, %ld loops, with %.4lfGTps, %.4lfGBps, %.4lfns latency\n",t,BLOCKSIZE,ITERNUM*numOfThread,ITERNUM*numOfThread/t/1.e9,ITERNUM*BLOCKSIZE*numOfThread/t/1.e9,t/ITERNUM/numOfThread);
     
     for (int i=0; i<numOfThread; i++) {
-        free(paramForMemoryTest[i].buffer);
+        free(paramForMemoryTest[i].buffer1);
+        free(paramForMemoryTest[i].buffer2);
         free(paramForMemoryTest[i].block);
     }
     pthread_attr_destroy(&attr);
