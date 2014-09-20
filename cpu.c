@@ -15,7 +15,7 @@
 #define IOPSLOOPS 10000000000L
 #define FLOPSLOOPS 10000000000L
 #define NUMOFTHREAD 1
-#define TESTTYPE 0          //0=iops, 1=flops
+#define TESTTYPE 1          //0=iops, 1=flops
 
 #define IASIZE 1000
 #define DASIZE 1000
@@ -34,7 +34,7 @@ struct param
 //x=integer array; arraySize=array size; times=integer operation times
 int intCell(int* x,int arraySize,long times)
 {
-    //init 8 integers
+    //init
     int i99=3;
     int i88=2;
     int i77=1;
@@ -47,15 +47,16 @@ int intCell(int* x,int arraySize,long times)
     long loops=times/arraySize;
     //loop
     for (long i=0; i<loops; i++) {
-        for (int j=0; j<arraySize;j+=8) {
+        for (int j=0; j<arraySize;j+=4) {
             i99+=x[j];
             i88+=x[j+1];
             i77+=x[j+2];
             i66+=x[j+3];
-            i55+=x[j+4];
-            i44+=x[j+5];
-            i33+=x[j+6];
-            i22+=x[j+7];
+//            i55+=x[j+4];
+//            i44+=x[j+5];
+//            i33+=x[j+6];
+//            i22+=x[j+7];
+            
 //            i99+=x[j]+x[j+1];
 //            i88+=x[j+1]+x[j+2];
 //            i77+=x[j+2]+x[j+3];
@@ -66,7 +67,7 @@ int intCell(int* x,int arraySize,long times)
 //            i22+=x[j+7]+x[j];
         }
     }
-    return i99+i88+i77+i66+i55+i44+i33+i22;
+    return i99+i88+i77+i66;
 }
 
 //run by each thread directly when doing integer operation. call intCell to do the real operation
@@ -143,7 +144,7 @@ int main(int argc, const char * argv[])
     threads=(pthread_t*)malloc(sizeof(pthread_t)*numOfThread);
     pthread_attr_init(&attr);
     pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
-    p=(struct param*)malloc(sizeof(struct param*)*numOfThread);
+    p=(struct param*)malloc(sizeof(struct param)*numOfThread);
     for (int i=0; i<numOfThread; i++) {
         p[i].intArray=(int *)malloc(sizeof(int)*iaSize);
         p[i].doubleSArray=(double *)malloc(sizeof(double)*daSize);
