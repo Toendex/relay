@@ -15,7 +15,7 @@
 #define IOPSLOOPS 10000000000L
 #define FLOPSLOOPS 10000000000L
 #define NUMOFTHREAD 1
-#define TESTTYPE 1          //0=iops, 1=flops
+#define TESTTYPE 0          //0=iops, 1=flops
 
 #define IASIZE 1000
 #define DASIZE 1000
