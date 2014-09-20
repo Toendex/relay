@@ -44,23 +44,23 @@ int intCell(int* x,int arraySize,long times)
     int i33=-4;
     int i22=-5;
     //outer loop times
-    long loops=times/arraySize;
+    long loops=times/arraySize/2;
     //loop
     for (long i=0; i<loops; i++) {
         for (int j=0; j<arraySize;j+=4) {
-            i99+=x[j];
-            i88+=x[j+1];
-            i77+=x[j+2];
-            i66+=x[j+3];
+//            i99+=x[j];
+//            i88+=x[j+1];
+//            i77+=x[j+2];
+//            i66+=x[j+3];
 //            i55+=x[j+4];
 //            i44+=x[j+5];
 //            i33+=x[j+6];
 //            i22+=x[j+7];
             
-//            i99+=x[j]+x[j+1];
-//            i88+=x[j+1]+x[j+2];
-//            i77+=x[j+2]+x[j+3];
-//            i66+=x[j+3]+x[j+4];
+            i99+=x[j]+x[j+1];
+            i88+=x[j+1]+x[j+2];
+            i77+=x[j+2]+x[j+3];
+            i66+=x[j+3]+x[j+4];
 //            i55+=x[j+4]+x[j+5];
 //            i44+=x[j+5]+x[j+6];
 //            i33+=x[j+6]+x[j+7];
