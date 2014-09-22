@@ -14,7 +14,7 @@
 
 #define ITERNUM 100000000L
 #define BUFFERSIZE 512000000L
-#define STEP 1024
+#define STEP 4097
 
 typedef long PointType;
 
@@ -27,7 +27,7 @@ double nowTimeInSec() {
 int main(int argc, const char * argv[])
 {
     double t;
-    PointType * nodes;
+    PointType * nodes,* nw;
     long numOfItem=(BUFFERSIZE-sizeof(PointType *))/sizeof(PointType *);
     long n;
     int step=STEP/sizeof(PointType *);
@@ -42,10 +42,13 @@ int main(int argc, const char * argv[])
     t=nowTimeInSec()-t;
     printf("Write Latency: Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,numOfItem/t/1.e6,t*1.e9/numOfItem);
 
+    nw=nodes;
     t=nowTimeInSec();
-
+    for (long i=0; i<ITERNUM; i++) {
+        nw=*nw;
+    }
     t=nowTimeInSec()-t;
-//    printf("%i\n",nw->a[0]);
+    printf("%l\n",nw);
     printf("Read Latency: Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,ITERNUM/t/1.e6,t*1.e9/ITERNUM);
     
     return 0;
