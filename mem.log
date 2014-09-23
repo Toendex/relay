@@ -1,486 +1,480 @@
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 215.11s, with 92.9755MT/s, 0.0930GB/s, 10.7555ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 215.05s, with 93.0022MT/s, 0.0930GB/s, 10.7524ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 215.05s, with 93.0020MT/s, 0.0930GB/s, 10.7525ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 215.11s, with 92.9767MT/s, 0.0930GB/s, 10.7554ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 214.96s, with 93.0400MT/s, 0.0930GB/s, 10.7481ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.89s, with 10.5547MT/s, 10.5547GB/s, 94.7446ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.87s, with 10.7078MT/s, 10.7078GB/s, 93.3895ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 2.03s, with 9.8378MT/s, 9.8378GB/s, 101.6488ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 2.06s, with 9.7200MT/s, 9.7200GB/s, 102.8805ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 2.05s, with 9.7613MT/s, 9.7613GB/s, 102.4449ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.34s, with 0.0150MT/s, 14.9656GB/s, 66820.0970ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.52s, with 0.0132MT/s, 13.1792GB/s, 75877.2969ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.41s, with 0.0141MT/s, 14.1350GB/s, 70746.3026ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.57s, with 0.0128MT/s, 12.7550GB/s, 78400.5404ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.46s, with 0.0137MT/s, 13.6703GB/s, 73151.2904ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.56s, with 0.0000MT/s, 12.7935GB/s, 78164410.5911ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.55s, with 0.0000MT/s, 12.8946GB/s, 77552139.7591ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.30s, with 0.0000MT/s, 15.3281GB/s, 65239500.9995ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0000MT/s, 15.2530GB/s, 65560698.5092ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0000MT/s, 15.2116GB/s, 65739250.1831ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 21.47s, with 93.1663MT/s, 0.9317GB/s, 10.7335ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 21.35s, with 93.6939MT/s, 0.9369GB/s, 10.6731ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 21.42s, with 93.3763MT/s, 0.9338GB/s, 10.7094ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 21.35s, with 93.6705MT/s, 0.9367GB/s, 10.6757ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 21.30s, with 93.9016MT/s, 0.9390GB/s, 10.6494ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.92s, with 1.0416MT/s, 10.4158GB/s, 960.0816ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.84s, with 1.0879MT/s, 10.8788GB/s, 919.2185ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.86s, with 1.0761MT/s, 10.7612GB/s, 929.2625ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.85s, with 1.0808MT/s, 10.8079GB/s, 925.2460ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.86s, with 1.0774MT/s, 10.7735GB/s, 928.2010ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.33s, with 0.0015MT/s, 15.0533GB/s, 664307.9519ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.32s, with 0.0015MT/s, 15.1905GB/s, 658306.0026ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.32s, with 0.0015MT/s, 15.1163GB/s, 661537.5280ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.33s, with 0.0015MT/s, 15.0508GB/s, 664414.4058ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0015MT/s, 15.3082GB/s, 653246.0451ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.32s, with 0.0000MT/s, 15.1747GB/s, 65899097.9195ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.35s, with 0.0000MT/s, 14.8557GB/s, 67314052.5818ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.30s, with 0.0000MT/s, 15.3296GB/s, 65233349.8001ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0000MT/s, 15.2899GB/s, 65402758.1215ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0000MT/s, 15.3063GB/s, 65332591.5337ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 1
+Run 21.77s, with 91.8609MT/s, 0.0919GB/s, 10.8860ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 1
+Run 22.03s, with 90.7810MT/s, 0.0908GB/s, 11.0155ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 1
+Run 21.69s, with 92.1973MT/s, 0.0922GB/s, 10.8463ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 1
+Run 2.14s, with 93.3316MT/s, 0.9333GB/s, 10.7145ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 1
+Run 2.21s, with 90.4039MT/s, 0.9040GB/s, 11.0615ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 1
+Run 2.17s, with 92.2729MT/s, 0.9227GB/s, 10.8374ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 2.95s, with 67.7818MT/s, 6.7782GB/s, 14.7532ns latency
+Run 2.68s, with 74.6560MT/s, 7.4656GB/s, 13.3948ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 2.73s, with 73.3092MT/s, 7.3309GB/s, 13.6408ns latency
+Run 2.65s, with 75.5163MT/s, 7.5516GB/s, 13.2422ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 2.95s, with 67.7281MT/s, 6.7728GB/s, 14.7649ns latency
-Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 2.79s, with 71.6352MT/s, 7.1635GB/s, 13.9596ns latency
-Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 2.70s, with 74.1321MT/s, 7.4132GB/s, 13.4894ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.87s, with 0.1068MT/s, 10.6842GB/s, 9359.5946ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.82s, with 0.1098MT/s, 10.9837GB/s, 9104.4259ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.82s, with 0.1098MT/s, 10.9842GB/s, 9104.0051ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.83s, with 0.1095MT/s, 10.9467GB/s, 9135.1497ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.85s, with 0.1079MT/s, 10.7857GB/s, 9271.5693ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0002MT/s, 15.2223GB/s, 6569324.7318ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.36s, with 0.0001MT/s, 14.7024GB/s, 6801630.2586ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.33s, with 0.0002MT/s, 15.0747GB/s, 6633645.2961ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0002MT/s, 15.3085GB/s, 6532330.5130ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0002MT/s, 15.2243GB/s, 6568449.7356ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0000MT/s, 15.3025GB/s, 65348649.0250ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.34s, with 0.0000MT/s, 14.9787GB/s, 66761350.6317ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0000MT/s, 15.3016GB/s, 65352606.7734ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.31s, with 0.0000MT/s, 15.2381GB/s, 65625000.0000ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 10
-Run 1.52s, with 0.0000MT/s, 13.1463GB/s, 76067292.6903ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 110.55s, with 180.9178MT/s, 0.1809GB/s, 5.5274ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 110.54s, with 180.9234MT/s, 0.1809GB/s, 5.5272ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 110.58s, with 180.8569MT/s, 0.1809GB/s, 5.5292ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 110.55s, with 180.9135MT/s, 0.1809GB/s, 5.5275ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 110.61s, with 180.8107MT/s, 0.1808GB/s, 5.5306ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.55s, with 12.9334MT/s, 12.9334GB/s, 77.3192ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.53s, with 13.0364MT/s, 13.0364GB/s, 76.7084ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.50s, with 13.3256MT/s, 13.3256GB/s, 75.0435ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.54s, with 12.9997MT/s, 12.9997GB/s, 76.9247ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.53s, with 13.0573MT/s, 13.0573GB/s, 76.5858ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.10s, with 0.0182MT/s, 18.2108GB/s, 54912.4479ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.11s, with 0.0181MT/s, 18.0622GB/s, 55364.2988ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.10s, with 0.0182MT/s, 18.1574GB/s, 55073.8454ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.05s, with 0.0190MT/s, 19.0421GB/s, 52515.1968ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.05s, with 0.0190MT/s, 19.0196GB/s, 52577.4002ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.1960MT/s, 195995.5140GB/s, 5102.1576ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2108MT/s, 210769.0452GB/s, 4744.5297ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2151MT/s, 215092.5128GB/s, 4649.1623ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2597MT/s, 259709.2260GB/s, 3850.4601ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.1804MT/s, 180400.1720GB/s, 5543.2320ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 10.96s, with 182.5299MT/s, 1.8253GB/s, 5.4786ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 10.93s, with 183.0283MT/s, 1.8303GB/s, 5.4636ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 10.97s, with 182.2720MT/s, 1.8227GB/s, 5.4863ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 10.92s, with 183.0854MT/s, 1.8309GB/s, 5.4619ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 10.94s, with 182.7659MT/s, 1.8277GB/s, 5.4715ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.52s, with 1.3121MT/s, 13.1208GB/s, 762.1510ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.50s, with 1.3312MT/s, 13.3122GB/s, 751.1930ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.54s, with 1.3027MT/s, 13.0274GB/s, 767.6104ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.53s, with 1.3101MT/s, 13.1012GB/s, 763.2915ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.51s, with 1.3263MT/s, 13.2625GB/s, 754.0040ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.07s, with 0.0019MT/s, 18.7015GB/s, 534716.9638ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.05s, with 0.0019MT/s, 18.9915GB/s, 526550.5314ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.10s, with 0.0018MT/s, 18.1549GB/s, 550814.9862ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.05s, with 0.0019MT/s, 19.0574GB/s, 524729.9671ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.10s, with 0.0018MT/s, 18.1471GB/s, 551051.4975ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2411MT/s, 241051.9540GB/s, 4148.4833ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2129MT/s, 212908.8325GB/s, 4696.8460ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.1638MT/s, 163840.0000GB/s, 6103.5156ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2151MT/s, 215092.5128GB/s, 4649.1623ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2893MT/s, 289262.3448GB/s, 3457.0694ns latency
+Run 2.60s, with 77.0574MT/s, 7.7057GB/s, 12.9773ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 4.09s, with 9.7820MT/s, 9.7820GB/s, 102.2282ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 3.97s, with 10.0824MT/s, 10.0824GB/s, 99.1827ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 3.71s, with 10.7675MT/s, 10.7675GB/s, 92.8720ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 3.90s, with 1.0269MT/s, 10.2692GB/s, 973.7835ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 4.14s, with 0.9669MT/s, 9.6689GB/s, 1034.2480ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 3.86s, with 1.0353MT/s, 10.3534GB/s, 965.8618ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 3.90s, with 0.1027MT/s, 10.2652GB/s, 9741.6526ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 3.98s, with 0.1004MT/s, 10.0417GB/s, 9958.4424ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 3.59s, with 0.1114MT/s, 11.1415GB/s, 8975.4575ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 2.80s, with 0.0143MT/s, 14.3064GB/s, 69898.7007ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 3.01s, with 0.0133MT/s, 13.2781GB/s, 75312.1018ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 3.02s, with 0.0133MT/s, 13.2622GB/s, 75402.5221ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 2.70s, with 0.0015MT/s, 14.7892GB/s, 676169.5147ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 2.73s, with 0.0015MT/s, 14.6590GB/s, 682173.7885ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 3.02s, with 0.0013MT/s, 13.2356GB/s, 755539.2385ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 2.90s, with 0.0001MT/s, 13.7719GB/s, 7261160.0161ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 2.70s, with 0.0001MT/s, 14.8064GB/s, 6753835.0821ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 1, Iter 20
+Run 2.67s, with 0.0001MT/s, 14.9748GB/s, 6677879.6911ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 1
+Run 11.07s, with 180.6198MT/s, 0.1806GB/s, 5.5365ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 1
+Run 11.03s, with 181.2929MT/s, 0.1813GB/s, 5.5159ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 1
+Run 11.06s, with 180.8804MT/s, 0.1809GB/s, 5.5285ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 1
+Run 1.09s, with 183.2576MT/s, 1.8326GB/s, 5.4568ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 1
+Run 1.09s, with 183.7225MT/s, 1.8372GB/s, 5.4430ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 1
+Run 1.10s, with 182.5912MT/s, 1.8259GB/s, 5.4767ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.69s, with 118.0508MT/s, 11.8051GB/s, 8.4709ns latency
+Run 1.68s, with 119.1701MT/s, 11.9170GB/s, 8.3914ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.57s, with 127.6375MT/s, 12.7637GB/s, 7.8347ns latency
+Run 1.58s, with 126.8626MT/s, 12.6863GB/s, 7.8825ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.57s, with 127.5832MT/s, 12.7583GB/s, 7.8380ns latency
-Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.64s, with 121.8542MT/s, 12.1854GB/s, 8.2065ns latency
-Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.59s, with 125.7235MT/s, 12.5724GB/s, 7.9540ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.50s, with 0.1330MT/s, 13.3004GB/s, 7518.5990ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.50s, with 0.1330MT/s, 13.3000GB/s, 7518.7910ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.54s, with 0.1302MT/s, 13.0206GB/s, 7680.1550ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.54s, with 0.1300MT/s, 13.0006GB/s, 7691.9758ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.54s, with 0.1303MT/s, 13.0273GB/s, 7676.1901ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.11s, with 0.0002MT/s, 18.0308GB/s, 5546075.1057ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.06s, with 0.0002MT/s, 18.9032GB/s, 5290110.1112ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.10s, with 0.0002MT/s, 18.2628GB/s, 5475605.7262ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.10s, with 0.0002MT/s, 18.2353GB/s, 5483870.5063ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 1.05s, with 0.0002MT/s, 19.0674GB/s, 5244565.0101ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2497MT/s, 249660.9524GB/s, 4005.4321ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2151MT/s, 215092.5128GB/s, 4649.1623ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.1514MT/s, 151418.9170GB/s, 6604.1946ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2129MT/s, 212908.8325GB/s, 4696.8460ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 10
-Run 0.00s, with 0.2108MT/s, 210769.0452GB/s, 4744.5297ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 59.93s, with 333.7210MT/s, 0.3337GB/s, 2.9965ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 61.99s, with 322.6582MT/s, 0.3227GB/s, 3.0993ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 61.70s, with 324.1691MT/s, 0.3242GB/s, 3.0848ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 63.00s, with 317.4821MT/s, 0.3175GB/s, 3.1498ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 61.27s, with 326.4279MT/s, 0.3264GB/s, 3.0635ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.50s, with 13.3028MT/s, 13.3028GB/s, 75.1724ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.49s, with 13.3806MT/s, 13.3806GB/s, 74.7348ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.49s, with 13.3821MT/s, 13.3821GB/s, 74.7266ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.50s, with 13.3743MT/s, 13.3743GB/s, 74.7702ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.50s, with 13.3751MT/s, 13.3751GB/s, 74.7657ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.08s, with 0.0186MT/s, 18.5861GB/s, 53803.6108ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.08s, with 0.0186MT/s, 18.6012GB/s, 53759.8491ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.07s, with 0.0186MT/s, 18.6370GB/s, 53656.6019ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.07s, with 0.0186MT/s, 18.6100GB/s, 53734.6482ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.08s, with 0.0185MT/s, 18.5232GB/s, 53986.2990ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1601MT/s, 160087.9389GB/s, 6246.5668ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1514MT/s, 151418.9170GB/s, 6604.1946ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1708MT/s, 170847.4134GB/s, 5853.1761ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1149MT/s, 114912.4384GB/s, 8702.2781ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1469MT/s, 146910.8231GB/s, 6806.8504ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 5.90s, with 339.0023MT/s, 3.3900GB/s, 2.9498ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 6.15s, with 325.1691MT/s, 3.2517GB/s, 3.0753ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 6.04s, with 331.2752MT/s, 3.3128GB/s, 3.0186ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 5.90s, with 339.0114MT/s, 3.3901GB/s, 2.9498ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 5.77s, with 346.3242MT/s, 3.4632GB/s, 2.8875ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.50s, with 1.3358MT/s, 13.3583GB/s, 748.5960ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.49s, with 1.3464MT/s, 13.4644GB/s, 742.7015ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.49s, with 1.3416MT/s, 13.4157GB/s, 745.3935ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.49s, with 1.3447MT/s, 13.4465GB/s, 743.6870ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.50s, with 1.3330MT/s, 13.3297GB/s, 750.2021ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.08s, with 0.0019MT/s, 18.5884GB/s, 537969.4700ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.08s, with 0.0019MT/s, 18.5751GB/s, 538354.3968ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.07s, with 0.0019MT/s, 18.7782GB/s, 532531.4999ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.08s, with 0.0019MT/s, 18.5870GB/s, 538009.5243ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.08s, with 0.0019MT/s, 18.5608GB/s, 538769.9604ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1551MT/s, 155057.4492GB/s, 6449.2226ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1708MT/s, 170847.4134GB/s, 5853.1761ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1551MT/s, 155057.4492GB/s, 6449.2226ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1514MT/s, 151418.9170GB/s, 6604.1946ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1613MT/s, 161319.3846GB/s, 6198.8831ns latency
+Run 1.60s, with 125.1717MT/s, 12.5172GB/s, 7.9890ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 3.01s, with 13.3001MT/s, 13.3001GB/s, 75.1871ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 3.01s, with 13.2776MT/s, 13.2776GB/s, 75.3146ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.89s, with 13.8365MT/s, 13.8365GB/s, 72.2725ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.94s, with 1.3608MT/s, 13.6079GB/s, 734.8690ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.95s, with 1.3561MT/s, 13.5612GB/s, 737.3955ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.91s, with 1.3762MT/s, 13.7625GB/s, 726.6122ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.92s, with 0.1371MT/s, 13.7138GB/s, 7291.9226ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.95s, with 0.1357MT/s, 13.5663GB/s, 7371.2176ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.96s, with 0.1352MT/s, 13.5233GB/s, 7394.6321ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.06s, with 0.0194MT/s, 19.3920GB/s, 51567.6737ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.18s, with 0.0183MT/s, 18.3372GB/s, 54533.8750ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.15s, with 0.0186MT/s, 18.5894GB/s, 53794.1992ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.01s, with 0.0020MT/s, 19.8805GB/s, 503004.2529ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.15s, with 0.0019MT/s, 18.6418GB/s, 536430.0013ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.09s, with 0.0019MT/s, 19.1122GB/s, 523225.0094ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.08s, with 0.0002MT/s, 19.2556GB/s, 5193287.7302ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.15s, with 0.0002MT/s, 18.5994GB/s, 5376514.7924ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 2, Iter 20
+Run 2.14s, with 0.0002MT/s, 18.6687GB/s, 5356554.9850ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 1
+Run 6.22s, with 321.5989MT/s, 0.3216GB/s, 3.1095ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 1
+Run 6.64s, with 301.0122MT/s, 0.3010GB/s, 3.3221ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 1
+Run 6.34s, with 315.4259MT/s, 0.3154GB/s, 3.1703ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 1
+Run 0.64s, with 311.6838MT/s, 3.1168GB/s, 3.2084ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 1
+Run 0.58s, with 345.9926MT/s, 3.4599GB/s, 2.8902ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 1
+Run 0.67s, with 296.4627MT/s, 2.9646GB/s, 3.3731ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.50s, with 133.1296MT/s, 13.3130GB/s, 7.5115ns latency
+Run 1.57s, with 127.4776MT/s, 12.7478GB/s, 7.8445ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.51s, with 132.0204MT/s, 13.2020GB/s, 7.5746ns latency
+Run 1.46s, with 137.1604MT/s, 13.7160GB/s, 7.2907ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.50s, with 133.4828MT/s, 13.3483GB/s, 7.4916ns latency
-Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.52s, with 131.5475MT/s, 13.1548GB/s, 7.6018ns latency
-Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.51s, with 132.7361MT/s, 13.2736GB/s, 7.5337ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.51s, with 0.1328MT/s, 13.2837GB/s, 7528.0058ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.50s, with 0.1336MT/s, 13.3645GB/s, 7482.5144ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.49s, with 0.1343MT/s, 13.4309GB/s, 7445.5357ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.49s, with 0.1342MT/s, 13.4212GB/s, 7450.8798ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 1.49s, with 0.1342MT/s, 13.4153GB/s, 7454.1950ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.86s, with 0.0002MT/s, 23.1367GB/s, 4322144.9852ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.85s, with 0.0002MT/s, 23.4692GB/s, 4260900.0206ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.86s, with 0.0002MT/s, 23.2813GB/s, 4295294.2848ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.85s, with 0.0002MT/s, 23.4188GB/s, 4270069.5992ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.86s, with 0.0002MT/s, 23.2328GB/s, 4304264.7839ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1309MT/s, 130867.5195GB/s, 7641.3155ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1562MT/s, 156212.4395GB/s, 6401.5388ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1525MT/s, 152520.1455GB/s, 6556.5109ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1601MT/s, 160087.9389GB/s, 6246.5668ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 10
-Run 0.00s, with 0.1708MT/s, 170847.4134GB/s, 5853.1761ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 47.46s, with 421.3785MT/s, 0.4214GB/s, 2.3732ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 46.39s, with 431.1091MT/s, 0.4311GB/s, 2.3196ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 46.40s, with 431.0540MT/s, 0.4311GB/s, 2.3199ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 46.39s, with 431.1063MT/s, 0.4311GB/s, 2.3196ns latency
-Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 46.42s, with 430.8647MT/s, 0.4309GB/s, 2.3209ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.50s, with 13.3700MT/s, 13.3700GB/s, 74.7945ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.50s, with 13.3206MT/s, 13.3206GB/s, 75.0719ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.49s, with 13.3845MT/s, 13.3845GB/s, 74.7133ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.50s, with 13.3116MT/s, 13.3116GB/s, 75.1225ns latency
-Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.50s, with 13.3728MT/s, 13.3728GB/s, 74.7785ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.10s, with 0.0182MT/s, 18.2223GB/s, 54877.8057ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.10s, with 0.0183MT/s, 18.2530GB/s, 54785.4543ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.10s, with 0.0182MT/s, 18.2157GB/s, 54897.7017ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.10s, with 0.0182MT/s, 18.2305GB/s, 54853.2486ns latency
-Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.10s, with 0.0182MT/s, 18.1958GB/s, 54957.7594ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1026MT/s, 102550.2200GB/s, 9751.3199ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1021MT/s, 102051.1922GB/s, 9799.0036ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.0738MT/s, 73778.4345GB/s, 13554.0962ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.0781MT/s, 78106.2197GB/s, 12803.0777ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1054MT/s, 105384.5226GB/s, 9489.0594ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 4.65s, with 429.8819MT/s, 4.2988GB/s, 2.3262ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 4.67s, with 428.1782MT/s, 4.2818GB/s, 2.3355ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 4.65s, with 429.8368MT/s, 4.2984GB/s, 2.3265ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 4.65s, with 430.3949MT/s, 4.3039GB/s, 2.3234ns latency
-Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 4.65s, with 430.2321MT/s, 4.3023GB/s, 2.3243ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.51s, with 1.3213MT/s, 13.2128GB/s, 756.8439ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.51s, with 1.3247MT/s, 13.2466GB/s, 754.9081ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.51s, with 1.3242MT/s, 13.2424GB/s, 755.1485ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.51s, with 1.3215MT/s, 13.2149GB/s, 756.7220ns latency
-Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.51s, with 1.3221MT/s, 13.2210GB/s, 756.3751ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.06s, with 0.0019MT/s, 18.9093GB/s, 528839.4690ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.05s, with 0.0019MT/s, 18.9755GB/s, 526995.0628ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.06s, with 0.0019MT/s, 18.9285GB/s, 528303.9808ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.06s, with 0.0019MT/s, 18.9148GB/s, 528685.4506ns latency
-Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.06s, with 0.0019MT/s, 18.9235GB/s, 528442.5020ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1042MT/s, 104206.3106GB/s, 9596.3478ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1094MT/s, 109369.0743GB/s, 9143.3525ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1088MT/s, 108801.6602GB/s, 9191.0362ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1042MT/s, 104206.3106GB/s, 9596.3478ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1087MT/s, 108660.7254GB/s, 9202.9572ns latency
+Run 1.45s, with 137.5090MT/s, 13.7509GB/s, 7.2722ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 3.12s, with 12.8179MT/s, 12.8179GB/s, 78.0158ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.87s, with 13.9504MT/s, 13.9504GB/s, 71.6826ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.87s, with 13.9328MT/s, 13.9328GB/s, 71.7731ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.93s, with 1.3644MT/s, 13.6438GB/s, 732.9352ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.89s, with 1.3846MT/s, 13.8463GB/s, 722.2152ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.86s, with 1.3998MT/s, 13.9978GB/s, 714.3985ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.85s, with 0.1404MT/s, 14.0386GB/s, 7123.2373ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 3.05s, with 0.1310MT/s, 13.0982GB/s, 7634.6326ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.90s, with 0.1381MT/s, 13.8126GB/s, 7239.7524ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.16s, with 0.0185MT/s, 18.5147GB/s, 54011.2495ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.07s, with 0.0193MT/s, 19.3196GB/s, 51760.8464ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.07s, with 0.0193MT/s, 19.3109GB/s, 51784.2948ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.05s, with 0.0020MT/s, 19.5107GB/s, 512538.7311ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.07s, with 0.0019MT/s, 19.3382GB/s, 517111.2418ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 2.07s, with 0.0019MT/s, 19.3402GB/s, 517058.4917ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 1.64s, with 0.0002MT/s, 24.3435GB/s, 4107867.4793ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 1.65s, with 0.0002MT/s, 24.2650GB/s, 4121155.1428ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 4, Iter 20
+Run 1.65s, with 0.0002MT/s, 24.2149GB/s, 4129684.5675ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 1
+Run 4.57s, with 437.5186MT/s, 0.4375GB/s, 2.2856ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 1
+Run 4.65s, with 430.1264MT/s, 0.4301GB/s, 2.3249ns latency
+Block size 1, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 1
+Run 4.73s, with 422.6914MT/s, 0.4227GB/s, 2.3658ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 1
+Run 0.46s, with 431.9020MT/s, 4.3190GB/s, 2.3153ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 1
+Run 0.46s, with 432.9396MT/s, 4.3294GB/s, 2.3098ns latency
+Block size 10, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 1
+Run 0.46s, with 432.3071MT/s, 4.3231GB/s, 2.3132ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.49s, with 134.3764MT/s, 13.4376GB/s, 7.4418ns latency
+Run 1.42s, with 140.8682MT/s, 14.0868GB/s, 7.0988ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.49s, with 133.9306MT/s, 13.3931GB/s, 7.4666ns latency
+Run 1.42s, with 140.5803MT/s, 14.0580GB/s, 7.1134ns latency
 Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.49s, with 134.0451MT/s, 13.4045GB/s, 7.4602ns latency
-Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.49s, with 134.2890MT/s, 13.4289GB/s, 7.4466ns latency
-Block size 100, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.49s, with 134.2059MT/s, 13.4206GB/s, 7.4512ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.51s, with 0.1324MT/s, 13.2438GB/s, 7550.6854ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.51s, with 0.1325MT/s, 13.2497GB/s, 7547.3499ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.51s, with 0.1322MT/s, 13.2198GB/s, 7564.3957ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.51s, with 0.1323MT/s, 13.2347GB/s, 7555.8794ns latency
-Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 1.51s, with 0.1320MT/s, 13.2036GB/s, 7573.7000ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.88s, with 0.0002MT/s, 22.6532GB/s, 4414380.7888ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.88s, with 0.0002MT/s, 22.8207GB/s, 4381984.4723ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.88s, with 0.0002MT/s, 22.7709GB/s, 4391570.0912ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.88s, with 0.0002MT/s, 22.7045GB/s, 4404414.8922ns latency
-Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.88s, with 0.0002MT/s, 22.7510GB/s, 4395405.0541ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.0980MT/s, 97997.7570GB/s, 10204.3152ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1183MT/s, 118316.0508GB/s, 8451.9386ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1123MT/s, 112297.2959GB/s, 8904.9339ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.0981MT/s, 98112.3743GB/s, 10192.3943ns latency
-Block size 1000000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 10
-Run 0.00s, with 0.1183MT/s, 118316.0508GB/s, 8451.9386ns latency
-Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 10
-Run 1052.76s, with 18.9976MT/s, 0.0190GB/s, 52.6382ns latency
-Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 10
-Run 1059.02s, with 18.8853MT/s, 0.0189GB/s, 52.9512ns latency
-Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 10
-Run 1035.15s, with 19.3209MT/s, 0.0193GB/s, 51.7574ns latency
+Run 1.42s, with 140.9328MT/s, 14.0933GB/s, 7.0956ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 3.11s, with 12.8765MT/s, 12.8765GB/s, 77.6606ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.87s, with 13.9593MT/s, 13.9593GB/s, 71.6367ns latency
+Block size 1000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.97s, with 13.4816MT/s, 13.4816GB/s, 74.1753ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.95s, with 1.3562MT/s, 13.5621GB/s, 737.3462ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 3.03s, with 1.3189MT/s, 13.1889GB/s, 758.2110ns latency
+Block size 10000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 3.04s, with 1.3163MT/s, 13.1626GB/s, 759.7265ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 3.08s, with 0.1300MT/s, 12.9953GB/s, 7695.1104ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.90s, with 0.1378MT/s, 13.7825GB/s, 7255.5673ns latency
+Block size 100000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.89s, with 0.1383MT/s, 13.8317GB/s, 7229.7895ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.10s, with 0.0191MT/s, 19.0738GB/s, 52427.8045ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.11s, with 0.0190MT/s, 18.9567GB/s, 52751.6723ns latency
+Block size 1000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.10s, with 0.0191MT/s, 19.0603GB/s, 52465.0753ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.01s, with 0.0020MT/s, 19.8566GB/s, 503609.7765ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.02s, with 0.0020MT/s, 19.8478GB/s, 503833.7708ns latency
+Block size 10000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 2.01s, with 0.0020MT/s, 19.8531GB/s, 503698.7662ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 1.68s, with 0.0002MT/s, 23.7971GB/s, 4202197.1941ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 1.68s, with 0.0002MT/s, 23.8798GB/s, 4187645.3161ns latency
+Block size 100000000, Buffer size 1000000000, Test type 0, Num Of Thread 8, Iter 20
+Run 1.68s, with 0.0002MT/s, 23.7887GB/s, 4203680.1577ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 1
+Run 105.06s, with 19.0365MT/s, 0.0190GB/s, 52.5307ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 1
+Run 106.81s, with 18.7242MT/s, 0.0187GB/s, 53.4070ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 1
+Run 110.41s, with 18.1144MT/s, 0.0181GB/s, 55.2047ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 1
+Run 11.56s, with 17.2951MT/s, 0.1730GB/s, 57.8198ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 1
+Run 11.29s, with 17.7101MT/s, 0.1771GB/s, 56.4649ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 1
+Run 10.87s, with 18.4022MT/s, 0.1840GB/s, 54.3414ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 10
+Run 12.76s, with 15.6713MT/s, 1.5671GB/s, 63.8108ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 10
+Run 12.87s, with 15.5366MT/s, 1.5537GB/s, 64.3642ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 10
+Run 12.80s, with 15.6237MT/s, 1.5624GB/s, 64.0051ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 6.92s, with 5.7805MT/s, 5.7805GB/s, 172.9945ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 6.98s, with 5.7271MT/s, 5.7271GB/s, 174.6094ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 7.06s, with 5.6656MT/s, 5.6656GB/s, 176.5024ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 3.91s, with 1.0231MT/s, 10.2308GB/s, 977.4365ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 3.78s, with 1.0570MT/s, 10.5699GB/s, 946.0845ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 3.79s, with 1.0557MT/s, 10.5565GB/s, 947.2810ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 3.53s, with 0.1133MT/s, 11.3273GB/s, 8828.1977ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 3.52s, with 0.1137MT/s, 11.3741GB/s, 8791.8800ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 3.52s, with 0.1136MT/s, 11.3594GB/s, 8803.2722ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 2.50s, with 0.0160MT/s, 15.9750GB/s, 62597.9006ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 2.72s, with 0.0147MT/s, 14.7036GB/s, 68010.7236ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 2.74s, with 0.0146MT/s, 14.6086GB/s, 68452.6980ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 2.66s, with 0.0015MT/s, 15.0302GB/s, 665327.9662ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 2.78s, with 0.0014MT/s, 14.4046GB/s, 694223.5231ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 2.69s, with 0.0015MT/s, 14.8871GB/s, 671721.9949ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 2.69s, with 0.0001MT/s, 14.8934GB/s, 6714372.0388ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 2.71s, with 0.0001MT/s, 14.7435GB/s, 6782642.6029ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 1, Iter 20
+Run 2.67s, with 0.0001MT/s, 14.9912GB/s, 6670590.0431ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 1
+Run 76.07s, with 26.2923MT/s, 0.0263GB/s, 38.0340ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 1
+Run 77.26s, with 25.8852MT/s, 0.0259GB/s, 38.6321ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 1
+Run 76.23s, with 26.2356MT/s, 0.0262GB/s, 38.1161ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 1
+Run 7.64s, with 26.1926MT/s, 0.2619GB/s, 38.1788ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 1
+Run 8.29s, with 24.1255MT/s, 0.2413GB/s, 41.4499ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 1
+Run 8.29s, with 24.1317MT/s, 0.2413GB/s, 41.4393ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 10
+Run 9.68s, with 20.6641MT/s, 2.0664GB/s, 48.3932ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 10
+Run 8.72s, with 22.9362MT/s, 2.2936GB/s, 43.5991ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 10
+Run 9.48s, with 21.0875MT/s, 2.1088GB/s, 47.4214ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 4.46s, with 8.9611MT/s, 8.9611GB/s, 111.5932ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 4.47s, with 8.9432MT/s, 8.9432GB/s, 111.8163ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 4.16s, with 9.6138MT/s, 9.6138GB/s, 104.0177ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.92s, with 1.3711MT/s, 13.7112GB/s, 729.3327ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.99s, with 1.3384MT/s, 13.3841GB/s, 747.1573ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.89s, with 1.3834MT/s, 13.8341GB/s, 722.8523ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.79s, with 0.1434MT/s, 14.3390GB/s, 6973.9974ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.76s, with 0.1448MT/s, 14.4811GB/s, 6905.5325ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.77s, with 0.1444MT/s, 14.4441GB/s, 6923.2446ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.03s, with 0.0197MT/s, 19.6872GB/s, 50794.2975ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.00s, with 0.0200MT/s, 19.9886GB/s, 50028.5745ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 1.98s, with 0.0202MT/s, 20.1968GB/s, 49512.7022ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.05s, with 0.0020MT/s, 19.5288GB/s, 512063.7417ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 1.93s, with 0.0021MT/s, 20.7108GB/s, 482839.7632ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 1.94s, with 0.0021MT/s, 20.6396GB/s, 484505.7726ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.13s, with 0.0002MT/s, 18.7398GB/s, 5336247.0865ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.07s, with 0.0002MT/s, 19.3608GB/s, 5165077.4479ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 2, Iter 20
+Run 2.03s, with 0.0002MT/s, 19.7058GB/s, 5074657.2018ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 1
+Run 47.90s, with 41.7568MT/s, 0.0418GB/s, 23.9482ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 1
+Run 54.60s, with 36.6303MT/s, 0.0366GB/s, 27.2998ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 1
+Run 48.97s, with 40.8447MT/s, 0.0408GB/s, 24.4830ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 1
+Run 4.92s, with 40.6902MT/s, 0.4069GB/s, 24.5759ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 1
+Run 4.89s, with 40.8613MT/s, 0.4086GB/s, 24.4731ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 1
+Run 5.11s, with 39.1503MT/s, 0.3915GB/s, 25.5426ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 10
+Run 6.05s, with 33.0571MT/s, 3.3057GB/s, 30.2507ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 10
+Run 5.85s, with 34.1891MT/s, 3.4189GB/s, 29.2491ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 10
+Run 5.90s, with 33.9245MT/s, 3.3925GB/s, 29.4772ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 3.34s, with 11.9710MT/s, 11.9710GB/s, 83.5349ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 3.41s, with 11.7398MT/s, 11.7398GB/s, 85.1803ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 3.30s, with 12.1158MT/s, 12.1158GB/s, 82.5371ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 2.81s, with 1.4224MT/s, 14.2239GB/s, 703.0417ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 2.80s, with 1.4295MT/s, 14.2952GB/s, 699.5370ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 2.80s, with 1.4265MT/s, 14.2648GB/s, 701.0272ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 2.67s, with 0.1498MT/s, 14.9769GB/s, 6676.9600ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 2.67s, with 0.1500MT/s, 15.0000GB/s, 6666.6573ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 2.66s, with 0.1503MT/s, 15.0255GB/s, 6655.3724ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 1.95s, with 0.0205MT/s, 20.5417GB/s, 48681.5274ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 1.92s, with 0.0208MT/s, 20.8318GB/s, 48003.5245ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 1.93s, with 0.0207MT/s, 20.7098GB/s, 48286.3784ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 1.97s, with 0.0020MT/s, 20.2783GB/s, 493137.0020ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 1.97s, with 0.0020MT/s, 20.2891GB/s, 492876.0529ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 1.97s, with 0.0020MT/s, 20.2743GB/s, 493236.0053ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 1.67s, with 0.0002MT/s, 24.0044GB/s, 4165909.8864ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 1.65s, with 0.0002MT/s, 24.2247GB/s, 4128022.7900ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 4, Iter 20
+Run 1.67s, with 0.0002MT/s, 23.9693GB/s, 4172009.8257ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 1
+Run 26.87s, with 74.4217MT/s, 0.0744GB/s, 13.4369ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 1
+Run 26.27s, with 76.1311MT/s, 0.0761GB/s, 13.1352ns latency
+Block size 1, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 1
+Run 26.48s, with 75.5391MT/s, 0.0755GB/s, 13.2382ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 1
+Run 2.74s, with 73.0775MT/s, 0.7308GB/s, 13.6841ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 1
+Run 2.69s, with 74.3553MT/s, 0.7436GB/s, 13.4489ns latency
+Block size 10, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 1
+Run 2.69s, with 74.2821MT/s, 0.7428GB/s, 13.4622ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 10
+Run 3.45s, with 57.9387MT/s, 5.7939GB/s, 17.2596ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 10
+Run 3.31s, with 60.3335MT/s, 6.0334GB/s, 16.5745ns latency
+Block size 100, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 10
+Run 3.35s, with 59.7531MT/s, 5.9753GB/s, 16.7355ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 3.03s, with 13.2014MT/s, 13.2014GB/s, 75.7497ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 3.05s, with 13.1015MT/s, 13.1015GB/s, 76.3273ns latency
+Block size 1000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 3.03s, with 13.1882MT/s, 13.1882GB/s, 75.8251ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 2.82s, with 1.4207MT/s, 14.2074GB/s, 703.8583ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 2.81s, with 1.4213MT/s, 14.2134GB/s, 703.5590ns latency
+Block size 10000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 2.81s, with 1.4227MT/s, 14.2269GB/s, 702.8955ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 2.71s, with 0.1478MT/s, 14.7817GB/s, 6765.1147ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 2.71s, with 0.1478MT/s, 14.7787GB/s, 6766.4850ns latency
+Block size 100000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 2.71s, with 0.1477MT/s, 14.7675GB/s, 6771.6050ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 1.97s, with 0.0203MT/s, 20.3493GB/s, 49141.6991ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 1.96s, with 0.0204MT/s, 20.3619GB/s, 49111.3782ns latency
+Block size 1000000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 1.96s, with 0.0204MT/s, 20.3624GB/s, 49110.0967ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 1.95s, with 0.0021MT/s, 20.5079GB/s, 487617.2543ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 1.95s, with 0.0020MT/s, 20.4679GB/s, 488570.5113ns latency
+Block size 10000000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 1.95s, with 0.0021MT/s, 20.5113GB/s, 487536.0131ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 1.68s, with 0.0002MT/s, 23.8085GB/s, 4200182.5571ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 1.67s, with 0.0002MT/s, 23.8890GB/s, 4186034.7986ns latency
+Block size 100000000, Buffer size 1000000000, Test type 1, Num Of Thread 8, Iter 20
+Run 1.68s, with 0.0002MT/s, 23.8314GB/s, 4196142.5543ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 1, Iter 1
+Run 26.27s, with 76.1247MT/s, 0.0761GB/s, 13.1363ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 1, Iter 1
+Run 26.28s, with 76.1116MT/s, 0.0761GB/s, 13.1386ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 1, Iter 1
+Run 26.78s, with 74.6758MT/s, 0.0747GB/s, 13.3912ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 2, Iter 1
+Run 16.73s, with 119.5775MT/s, 0.1196GB/s, 8.3628ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 2, Iter 1
+Run 16.83s, with 118.8479MT/s, 0.1188GB/s, 8.4141ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 2, Iter 1
+Run 16.52s, with 121.0416MT/s, 0.1210GB/s, 8.2616ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 4, Iter 1
+Run 14.19s, with 140.9380MT/s, 0.1409GB/s, 7.0953ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 4, Iter 1
+Run 13.69s, with 146.0738MT/s, 0.1461GB/s, 6.8459ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 4, Iter 1
+Run 13.83s, with 144.6485MT/s, 0.1446GB/s, 6.9133ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 8, Iter 1
+Run 11.75s, with 170.1848MT/s, 0.1702GB/s, 5.8760ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 8, Iter 1
+Run 11.76s, with 170.0225MT/s, 0.1700GB/s, 5.8816ns latency
+Block size 1, Buffer size 1000000000, Test type 2, Num Of Thread 8, Iter 1
+Run 11.77s, with 169.9013MT/s, 0.1699GB/s, 5.8858ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 1, Iter 1
+Run 101.60s, with 19.6843MT/s, 0.0197GB/s, 50.8019ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 1, Iter 1
+Run 102.93s, with 19.4306MT/s, 0.0194GB/s, 51.4651ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 1, Iter 1
+Run 103.42s, with 19.3378MT/s, 0.0193GB/s, 51.7122ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 2, Iter 1
+Run 83.39s, with 23.9825MT/s, 0.0240GB/s, 41.6971ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 2, Iter 1
+Run 74.84s, with 26.7242MT/s, 0.0267GB/s, 37.4192ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 2, Iter 1
+Run 78.26s, with 25.5552MT/s, 0.0256GB/s, 39.1310ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 4, Iter 1
+Run 48.02s, with 41.6455MT/s, 0.0416GB/s, 24.0122ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 4, Iter 1
+Run 47.39s, with 42.2071MT/s, 0.0422GB/s, 23.6927ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 4, Iter 1
+Run 47.95s, with 41.7087MT/s, 0.0417GB/s, 23.9758ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 8, Iter 1
+Run 25.95s, with 77.0618MT/s, 0.0771GB/s, 12.9766ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 8, Iter 1
+Run 25.71s, with 77.7977MT/s, 0.0778GB/s, 12.8538ns latency
+Block size 1, Buffer size 1000000000, Test type 3, Num Of Thread 8, Iter 1
+Run 25.99s, with 76.9529MT/s, 0.0770GB/s, 12.9950ns latency

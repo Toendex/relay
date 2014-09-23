@@ -1,80 +1,80 @@
 Test type 0, Num Of Thread 1, Loops times 100000000000
-Run 12.26s, 100000000000 loops, with 8.15Giops
+Run 12.29s, 100000000000 loops, with 8.14Giops
 Test type 0, Num Of Thread 1, Loops times 100000000000
-Run 12.25s, 100000000000 loops, with 8.16Giops
+Run 12.57s, 100000000000 loops, with 7.95Giops
 Test type 0, Num Of Thread 1, Loops times 100000000000
-Run 12.18s, 100000000000 loops, with 8.21Giops
+Run 12.66s, 100000000000 loops, with 7.90Giops
 Test type 0, Num Of Thread 1, Loops times 100000000000
-Run 12.19s, 100000000000 loops, with 8.20Giops
+Run 12.17s, 100000000000 loops, with 8.22Giops
 Test type 0, Num Of Thread 1, Loops times 100000000000
-Run 12.18s, 100000000000 loops, with 8.21Giops
+Run 12.15s, 100000000000 loops, with 8.23Giops
 Test type 0, Num Of Thread 2, Loops times 100000000000
-Run 12.48s, 100000000000 loops, with 16.03Giops
-Test type 0, Num Of Thread 2, Loops times 100000000000
-Run 12.47s, 100000000000 loops, with 16.04Giops
-Test type 0, Num Of Thread 2, Loops times 100000000000
-Run 12.47s, 100000000000 loops, with 16.04Giops
+Run 12.45s, 100000000000 loops, with 16.07Giops
 Test type 0, Num Of Thread 2, Loops times 100000000000
 Run 12.45s, 100000000000 loops, with 16.06Giops
 Test type 0, Num Of Thread 2, Loops times 100000000000
-Run 12.47s, 100000000000 loops, with 16.04Giops
+Run 12.45s, 100000000000 loops, with 16.07Giops
+Test type 0, Num Of Thread 2, Loops times 100000000000
+Run 12.43s, 100000000000 loops, with 16.08Giops
+Test type 0, Num Of Thread 2, Loops times 100000000000
+Run 12.43s, 100000000000 loops, with 16.09Giops
 Test type 0, Num Of Thread 4, Loops times 100000000000
-Run 15.18s, 100000000000 loops, with 26.35Giops
+Run 13.83s, 100000000000 loops, with 28.92Giops
 Test type 0, Num Of Thread 4, Loops times 100000000000
-Run 14.22s, 100000000000 loops, with 28.13Giops
+Run 13.35s, 100000000000 loops, with 29.95Giops
 Test type 0, Num Of Thread 4, Loops times 100000000000
-Run 14.23s, 100000000000 loops, with 28.11Giops
+Run 13.33s, 100000000000 loops, with 30.00Giops
 Test type 0, Num Of Thread 4, Loops times 100000000000
-Run 14.62s, 100000000000 loops, with 27.36Giops
+Run 13.82s, 100000000000 loops, with 28.95Giops
 Test type 0, Num Of Thread 4, Loops times 100000000000
-Run 15.01s, 100000000000 loops, with 26.65Giops
+Run 13.49s, 100000000000 loops, with 29.64Giops
 Test type 0, Num Of Thread 8, Loops times 100000000000
-Run 24.95s, 100000000000 loops, with 32.06Giops
+Run 24.90s, 100000000000 loops, with 32.13Giops
 Test type 0, Num Of Thread 8, Loops times 100000000000
-Run 24.93s, 100000000000 loops, with 32.08Giops
+Run 24.92s, 100000000000 loops, with 32.11Giops
 Test type 0, Num Of Thread 8, Loops times 100000000000
-Run 24.94s, 100000000000 loops, with 32.07Giops
+Run 24.90s, 100000000000 loops, with 32.12Giops
 Test type 0, Num Of Thread 8, Loops times 100000000000
-Run 24.95s, 100000000000 loops, with 32.06Giops
+Run 24.94s, 100000000000 loops, with 32.08Giops
 Test type 0, Num Of Thread 8, Loops times 100000000000
-Run 24.93s, 100000000000 loops, with 32.10Giops
+Run 25.02s, 100000000000 loops, with 31.97Giops
 Test type 1, Num Of Thread 1, Loops times 100000000000
-Run 14.57s, 100000000000 loops, with 6.86Gflops
+Run 14.52s, 100000000000 loops, with 6.89Gflops
 Test type 1, Num Of Thread 1, Loops times 100000000000
-Run 14.56s, 100000000000 loops, with 6.87Gflops
+Run 14.50s, 100000000000 loops, with 6.90Gflops
 Test type 1, Num Of Thread 1, Loops times 100000000000
-Run 14.55s, 100000000000 loops, with 6.87Gflops
+Run 14.51s, 100000000000 loops, with 6.89Gflops
 Test type 1, Num Of Thread 1, Loops times 100000000000
-Run 14.54s, 100000000000 loops, with 6.88Gflops
+Run 14.61s, 100000000000 loops, with 6.85Gflops
 Test type 1, Num Of Thread 1, Loops times 100000000000
-Run 14.63s, 100000000000 loops, with 6.84Gflops
+Run 14.86s, 100000000000 loops, with 6.73Gflops
 Test type 1, Num Of Thread 2, Loops times 100000000000
-Run 14.91s, 100000000000 loops, with 13.41Gflops
+Run 15.21s, 100000000000 loops, with 13.15Gflops
 Test type 1, Num Of Thread 2, Loops times 100000000000
-Run 14.93s, 100000000000 loops, with 13.39Gflops
+Run 15.08s, 100000000000 loops, with 13.27Gflops
 Test type 1, Num Of Thread 2, Loops times 100000000000
-Run 14.94s, 100000000000 loops, with 13.39Gflops
+Run 15.06s, 100000000000 loops, with 13.28Gflops
 Test type 1, Num Of Thread 2, Loops times 100000000000
-Run 14.93s, 100000000000 loops, with 13.40Gflops
+Run 15.17s, 100000000000 loops, with 13.18Gflops
 Test type 1, Num Of Thread 2, Loops times 100000000000
-Run 14.93s, 100000000000 loops, with 13.39Gflops
+Run 15.26s, 100000000000 loops, with 13.11Gflops
 Test type 1, Num Of Thread 4, Loops times 100000000000
-Run 16.51s, 100000000000 loops, with 24.23Gflops
+Run 16.62s, 100000000000 loops, with 24.07Gflops
 Test type 1, Num Of Thread 4, Loops times 100000000000
-Run 17.18s, 100000000000 loops, with 23.28Gflops
+Run 16.97s, 100000000000 loops, with 23.56Gflops
 Test type 1, Num Of Thread 4, Loops times 100000000000
-Run 16.23s, 100000000000 loops, with 24.65Gflops
+Run 16.90s, 100000000000 loops, with 23.67Gflops
 Test type 1, Num Of Thread 4, Loops times 100000000000
-Run 16.20s, 100000000000 loops, with 24.69Gflops
+Run 16.82s, 100000000000 loops, with 23.78Gflops
 Test type 1, Num Of Thread 4, Loops times 100000000000
-Run 17.58s, 100000000000 loops, with 22.76Gflops
+Run 16.72s, 100000000000 loops, with 23.93Gflops
 Test type 1, Num Of Thread 8, Loops times 100000000000
-Run 30.48s, 100000000000 loops, with 26.25Gflops
+Run 31.33s, 100000000000 loops, with 25.53Gflops
 Test type 1, Num Of Thread 8, Loops times 100000000000
-Run 30.47s, 100000000000 loops, with 26.26Gflops
+Run 31.45s, 100000000000 loops, with 25.44Gflops
 Test type 1, Num Of Thread 8, Loops times 100000000000
-Run 30.47s, 100000000000 loops, with 26.25Gflops
+Run 31.03s, 100000000000 loops, with 25.78Gflops
 Test type 1, Num Of Thread 8, Loops times 100000000000
-Run 30.48s, 100000000000 loops, with 26.25Gflops
+Run 31.04s, 100000000000 loops, with 25.78Gflops
 Test type 1, Num Of Thread 8, Loops times 100000000000
-Run 30.48s, 100000000000 loops, with 26.25Gflops
+Run 30.66s, 100000000000 loops, with 26.09Gflops
