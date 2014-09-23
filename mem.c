@@ -245,7 +245,8 @@ int main(int argc, const char * argv[])
     transRate=2*iterNum*bufferSize/blockSize/t/1.e6;
     bandwidth=2*iterNum*bufferSize/t/1.e9;
     latency=t*1.e9/iterNum/bufferSize*blockSize/2;
-    printf("Copy: Run %.2lfs, block size %ld, with %.4lfMT/s, %.4lfGB/s, %.4lfns latency\n",t,blockSize,transRate,bandwidth,latency);
+    printf("Block size %ld, Buffer size %ld, Test type %d, Num Of Thread %d, Iter %d\n", blockSize, bufferSize, testType, numOfThread, iterNum);
+    printf("Run %.2lfs, with %.4lfMT/s, %.4lfGB/s, %.4lfns latency\n",t,transRate,bandwidth,latency);
     
     //free
     
