@@ -1,6 +1,6 @@
 #!/bin/bash
 rm cpu
-gcc -std=c99 -O2 -funroll-loops -pthread cpu.c -o cpu
+gcc-4.8 -std=c99 -O2 -funroll-loops -pthread cpu.c -o cpu
 rm ./cpu.log
 touch ./cpu.log
 for testType in 0 1
@@ -15,7 +15,7 @@ do
 done
 
 rm mem
-gcc -std=c99 -pthread mem.c -o mem
+gcc-4.8 -std=c99 -pthread mem.c -o mem
 rm ./mem.log
 touch ./mem.log
 for testType in 0 1
