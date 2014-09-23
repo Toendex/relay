@@ -106,7 +106,8 @@ void * calFLOPS(void *param)
     int arraySize=p->daSize;
     long operationNum=p->operationNum;
     double dd=doubleCell(sArray, /*mArray,*/ arraySize, operationNum);
-    printf("%lf\n",dd);
+    if(dd<0 && dd>1)
+        printf("%lf\n",dd);
     pthread_exit(NULL);
 }
 
