@@ -12,10 +12,6 @@
 #include <pthread.h>
 #include <string.h>
 
-#define ITERNUM 100000000L
-#define BUFFERSIZE 128000000L
-#define NUMOFTHREAD 1
-#define STEP 4096
 
 typedef long PointType;
 
@@ -31,12 +27,13 @@ struct ParamForMemoryTest
 void * doIt(void *param)
 {
     PointType *buffer=((struct ParamForMemoryTest *)param)->buffer;
+    long iterNum=((struct ParamForMemoryTest *)param)->iterNum;
     PointType *nw=buffer;
-    for (long i=0; i<ITERNUM; i++) {
+    for (long i=0; i<iterNum; i++) {
 //        printf("%d\n",i);
         nw=*nw;
     }
-    printf("%l\n",nw);
+    printf("%ld\n",(long)nw);
     pthread_exit(NULL);
 }
 
@@ -53,40 +50,88 @@ int main(int argc, const char * argv[])
     
     double t;
     PointType * nodes,* nw;
-    long numOfItem=BUFFERSIZE/sizeof(PointType *);
+    long numOfItem;
     long n;
-    int step=STEP/sizeof(PointType *);
+    int step;
     int offset;
     struct ParamForMemoryTest *paramForMemoryTest;
+    long iterNum;
+    int numOfThread;
+    long bufferSize;
+    int stepInByte;
+    double latency;
+    double transRate;
     
-    threads=(pthread_t*)malloc(sizeof(pthread_t)*NUMOFTHREAD);
-    pthread_attr_init(&attr);
-    pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
-    paramForMemoryTest=(struct ParamForMemoryTest *)malloc(sizeof(struct ParamForMemoryTest)*NUMOFTHREAD);
-    nodes=(PointType *)malloc(numOfItem*sizeof(PointType *));
-
-    for (int t=0; t<NUMOFTHREAD; t++) {
-        n=0;
-        offset=t*numOfItem/NUMOFTHREAD;
-        for (int i=0; i<numOfItem/NUMOFTHREAD+1; i++) {
-            nodes[n+offset]=(PointType)&nodes[offset+(n+step)%(numOfItem/NUMOFTHREAD)];
-            n=(n+step)%(numOfItem/NUMOFTHREAD);
+    numOfThread=1;
+    stepInByte=256;
+    bufferSize=512000000L;
+    iterNum=100000000L;
+    
+    if (argc>1) {
+        numOfThread=atoi(argv[1]);
+        if (numOfThread<=0) {
+            printf("Invalid number of thread \"%d\"! Program exit.\n",numOfThread);
+            exit(0);
         }
     }
-    for (int i=0; i<NUMOFTHREAD; i++) {
-        paramForMemoryTest[i].buffer=nodes+i*numOfItem/NUMOFTHREAD;
+    if (argc>2) {
+        stepInByte=atoi(argv[2]);
+        if (stepInByte<=0) {
+            printf("Invalid step \"%d\"! Program exit.\n",stepInByte);
+            exit(0);
+        }
+    }
+    if (argc>3) {
+        bufferSize=1000000L*atoi(argv[3]);
+        if (bufferSize<=0) {
+            printf("Invalid Buffer size \"%d\"! Program exit.\n",atoi(argv[3]));
+            exit(0);
+        }
+    }
+    if (argc>4) {
+        iterNum=atoi(argv[4])*1000000;
+        if (iterNum<=0) {
+            printf("Invalid number of iteration \"%d\"! Program exit.\n",atoi(argv[4]));
+            exit(0);
+        }
+    }
+
+    
+    numOfItem=bufferSize/sizeof(PointType *);
+    step=stepInByte/sizeof(PointType *);
+    threads=(pthread_t*)malloc(sizeof(pthread_t)*numOfThread);
+    pthread_attr_init(&attr);
+    pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);
+    paramForMemoryTest=(struct ParamForMemoryTest *)malloc(sizeof(struct ParamForMemoryTest)*numOfThread);
+    nodes=(PointType *)malloc(numOfItem*sizeof(PointType *));
+
+    for (int t=0; t<numOfThread; t++) {
+        n=0;
+        offset=t*numOfItem/numOfThread;
+        for (int i=0; i<numOfItem/numOfThread+1; i++) {
+            nodes[n+offset]=(PointType)&nodes[offset+(n+step)%(numOfItem/numOfThread)];
+            n=(n+step)%(numOfItem/numOfThread);
+        }
+    }
+    for (int i=0; i<numOfThread; i++) {
+        paramForMemoryTest[i].buffer=nodes+i*numOfItem/numOfThread;
+        paramForMemoryTest[i].iterNum=iterNum;
     }
     
 
     t=nowTimeInSec();
-    for (int i=0; i<NUMOFTHREAD; i++) {
+    for (int i=0; i<numOfThread; i++) {
         pthread_create(threads+i, &attr, doIt, &paramForMemoryTest[i]);
     }
-    for (int i=0; i<NUMOFTHREAD; i++) {
+    for (int i=0; i<numOfThread; i++) {
         pthread_join(threads[i], NULL);
     }
     t=nowTimeInSec()-t;
-    printf("Latency: Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,ITERNUM/t/1.e6,t*1.e9/ITERNUM/NUMOFTHREAD);
+    
+    latency=t*1.e9/iterNum/numOfThread;
+    transRate=iterNum/t/1.e6;
+    printf("NumOfThread %d, StepInByte %d, BufferSize %ld\n",numOfThread,stepInByte,bufferSize);
+    printf("Run %.2lfs,with %.4lfMT/s, %.4lfns latency\n",t,transRate,latency);
     
     
     //    printf("Write: block size %d, Run %.2lfms, %ld loops, with %.4lfGTps, %.4lfns latency\n",BLOCKSIZE,timeInMS,ITERNUM,ITERNUM*numOfThread/timeInMS*1.e-6,timeInMS*1.e6/(ITERNUM*numOfThread));
